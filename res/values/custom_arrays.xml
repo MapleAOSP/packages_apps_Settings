@@ -16,6 +16,15 @@
 -->
 <resources>
 
+     <string-array name="power_menu_actions_array" translatable="false">
+        <item>power</item>
+        <item>reboot</item>
+        <item>screenshot</item>
+        <item>airplane</item>
+        <item>users</item>
+        <item>bugreport</item>
+    </string-array>
+
     <!-- Statusbar Clock -->
     <string-array name="status_bar_clock_style_entries" translatable="false">
         <item>@string/status_bar_clock_style_right</item>
