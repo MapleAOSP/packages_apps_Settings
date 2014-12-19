@@ -19,6 +19,11 @@
             android:title="@string/statusbar_settings_title"
             />
 
+        <PreferenceScreen
+            android:key="power_menu"
+            android:title="@string/power_menu_title"
+            android:fragment="com.android.settings.maple.PowerMenuActions" />
+
         <!-- Density Changer -->
         <PreferenceScreen
             android:key="density_changer"
