@@ -219,6 +219,8 @@
         <activity
              android:name=".maple.MapleSettings" />
 
+	<activity android:name=".benzo.Density" />
+
         <!-- Wireless Controls -->
 
         <activity android:name="Settings$WirelessSettingsActivity"
