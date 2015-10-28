@@ -5,6 +5,14 @@
     android:summary="@string/maple_settings_summary"
     android:title="@string/maple_settings_title" >
 
+        <!-- Statusbar -->
+        <PreferenceScreen
+            android:id="@+id/statusbar_settings"
+            android:fragment="com.android.settings.maple.StatusBarSettings"
+            android:title="@string/statusbar_settings_title"
+            android:icon="@drawable/ic_settings_statusbar"
+            />
+
         <!-- Wakelock blocker -->
         <PreferenceScreen
              android:key="wakelock_blocker"
@@ -22,3 +30,4 @@
     </PreferenceScreen>
 
 </PreferenceScreen>
+
