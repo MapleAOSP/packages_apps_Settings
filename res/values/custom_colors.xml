@@ -18,5 +18,6 @@
 
     <!-- General -->
     <color name="theme_accent">@*android:color/material_deep_teal_500</color>
+    <color name="storage_summary_title_color">#ff607d8b</color>
 
 </resources>
