@@ -23,6 +23,14 @@
             android:fragment="com.android.settings.maple.PowerMenuActions" 
         />
 
+	<!-- Lockscreen shortcuts -->
+        <PreferenceScreen
+            android:title="@string/lockscreen_targets_message" >
+            <intent
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
+        </PreferenceScreen>
+
     </PreferenceCategory>
 
     <PreferenceCategory
