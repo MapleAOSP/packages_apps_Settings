@@ -222,6 +222,9 @@
 
 	<activity android:name=".maple.Density" />
 
+        <!-- MapleOTA Update -->
+        <activity android:name="com.maple.ota.activities.MainActivity" />
+
         <activity android:name="Settings$SubstratumActivity"
                 android:label="@string/substratum_title"
                 android:icon="@drawable/ic_settings_substratum"
