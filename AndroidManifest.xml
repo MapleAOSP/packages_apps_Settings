@@ -3014,5 +3014,9 @@
             </intent-filter>
         </service>
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name=".maple.hideappfromrecents.HAFRAppListActivity" />
+
     </application>
 </manifest>
