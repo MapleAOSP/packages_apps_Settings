@@ -24,6 +24,13 @@
             android:title="@string/power_menu_title"
             android:fragment="com.android.settings.maple.PowerMenuActions" />
 
+        <!-- Quick Settings -->
+        <PreferenceScreen
+            android:id="@+id/quick_settings"
+            android:title="@string/quicksettings_title"
+            android:fragment="com.android.settings.maple.QuickSettings"
+            />
+
         <!-- Density Changer -->
         <PreferenceScreen
             android:key="density_changer"

@@ -27,10 +27,14 @@
     <string name="statusbar_settings_title">Clock style</string>
 
     <string name="ok">Okay</string>
+    <string name="quicksettings_title">Quick Settings</string>
 
     <!-- About phone screen,  Mod Version -->
     <string name="mod_version">MapleAOSP release</string>
     <string name="mod_version_default">Unknown</string>
+
+    <!-- Quick Settings  -->
+    <string name="notification_qstiles_title">Quick Settings</string>
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Advanced reboot</string>
