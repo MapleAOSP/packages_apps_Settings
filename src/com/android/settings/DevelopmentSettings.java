@@ -800,7 +800,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private void updateWebViewMultiprocessOptions() {
         updateSwitchPreference(mWebViewMultiprocess,
                 Settings.Global.getInt(getActivity().getContentResolver(),
-                        Settings.Global.WEBVIEW_MULTIPROCESS, 0) != 0);
+                        Settings.Global.WEBVIEW_MULTIPROCESS, 1) != 0);
     }
 
     private void writeWebViewMultiprocessOptions() {
