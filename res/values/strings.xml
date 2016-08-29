@@ -7288,9 +7288,6 @@
     <!-- Backup disabled summary [CHAR LIMIT=NONE] -->
     <string name="backup_disabled">Back up disabled</string>
 
-    <!-- Summary of device info page [CHAR LIMIT=NONE] -->
-    <string name="about_summary">MapleAOSP <xliff:g id="version" example="7.0">%1$s</xliff:g></string>
-
     <!-- TODO: Update these strings with the finalized ones. -->
     <!-- Title for dialog displayed when user clicks on a setting locked by an admin [CHAR LIMIT=30] -->
     <string name="disabled_by_policy_title">Action not allowed</string>
