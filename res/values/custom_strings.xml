@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Settings -->
+    <string name="header_category_maple">MapleAOSP</string>
+    <string name="maple_settings_title">Miscellaneous</string>
+
     <!-- Summary of device info page [CHAR LIMIT=NONE] -->
     <string name="about_summary">MapleAOSP 1.0</string>
 
