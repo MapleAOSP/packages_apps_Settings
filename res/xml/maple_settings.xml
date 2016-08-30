@@ -2,12 +2,14 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:summary="@string/maple_settings_summary"
     android:title="@string/maple_settings_title" >
 
         <!-- AppOps -->
         <PreferenceScreen
              android:key="app_ops_settings"
              android:title="@string/app_ops_settings"
+             android:summary="@string/app_ops_settings_summary"
              android:fragment="com.android.settings.applications.AppOpsSummary"
 	     android:icon="@drawable/ic_settings_appops"
          />
