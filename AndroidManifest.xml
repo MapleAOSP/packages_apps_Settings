@@ -198,6 +198,8 @@
                 android:value="com.android.settings.category.maple" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.maple.ProcessStatsSummary" />
+            <meta-data android:name="com.android.settings.summary"
+                    android:resource="@string/maple_settings_summary" />
         </activity>
  
        <!-- Keep compatibility with old shortcuts. -->
