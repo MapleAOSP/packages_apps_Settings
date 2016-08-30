@@ -185,7 +185,6 @@
         </activity>
 
         <!--MapleAOSP Settings -->
-
         <activity android:name="Settings$MapleSettingsActivity"
                 android:label="@string/maple_settings_title"
                 android:icon="@drawable/ic_maple"
@@ -194,7 +193,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <intent-filter android:priority="3">
+            <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
