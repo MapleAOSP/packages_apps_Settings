@@ -19,6 +19,7 @@
     <!-- Settings -->
     <string name="header_category_maple">MapleAOSP</string>
     <string name="maple_settings_title">Miscellaneous</string>
+    <string name="maple_settings_summary">Custom ROM settings</string>
 
     <!-- Summary of device info page [CHAR LIMIT=NONE] -->
     <string name="about_summary">MapleAOSP 1.0</string>
