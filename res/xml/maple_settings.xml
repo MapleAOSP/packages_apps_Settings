@@ -10,7 +10,6 @@
              android:key="wakelock_blocker"
              android:fragment="com.android.settings.maple.WakeLockBlocker"
              android:title="@string/wakelock_blocker_title"
-             android:icon="@drawable/ic_xd_wakelock"
          />
 
     <!-- Hide Apps from Recents -->
