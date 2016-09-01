@@ -24,6 +24,8 @@
     <!-- Summary of device info page [CHAR LIMIT=NONE] -->
     <string name="about_summary">MapleAOSP 1.0</string>
 
+    <string name="statusbar_settings_title">Clock</string>
+
     <!-- About phone screen,  Mod Version -->
     <string name="mod_version">MapleAOSP release</string>
     <string name="mod_version_default">Unknown</string>

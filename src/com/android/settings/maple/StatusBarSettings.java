@@ -13,7 +13,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-package com.android.settings.benzo;
+package com.android.settings.maple;
 
 import android.app.ActivityManager;
 import android.app.AlertDialog;
@@ -64,7 +64,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.BENZO;
+        return MetricsEvent.MAPLE;
     }
 
     @Override
