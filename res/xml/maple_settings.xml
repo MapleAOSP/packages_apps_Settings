@@ -10,7 +10,6 @@
             android:id="@+id/statusbar_settings"
             android:fragment="com.android.settings.maple.StatusBarSettings"
             android:title="@string/statusbar_settings_title"
-            android:icon="@drawable/ic_settings_statusbar"
             />
 
         <!-- Wakelock blocker -->
