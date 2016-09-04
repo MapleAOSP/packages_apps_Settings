@@ -165,9 +165,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
          */
         final Activity act = getActivity();
 
-        // These are contained by the root preference screen
-        PreferenceGroup parentPreference = getPreferenceScreen();
-
         // Remove manual entry if none present.
         removePreferenceIfBoolFalse(KEY_MANUAL, R.bool.config_show_manual);
 
