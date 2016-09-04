@@ -209,7 +209,7 @@
         <item name="switchBarBackgroundColor">@color/switchbar_background_color</item>
     </style>
 
-    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DayNight.DialogWhenLarge">
+    <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Material.DayNight.DialogWhenLarge">
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
 
