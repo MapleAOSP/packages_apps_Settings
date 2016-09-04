@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright (C) 2016 MapleAOSP
+<!-- Copyright (C) 2016 DarkKat
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,18 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- General -->
-    <color name="theme_accent">@*android:color/material_deep_teal_500</color>
-
-    <!--Carbon Extra Topics -->
-    <string name="cr_privacy_settings_title">Privacy</string>
-
-    <!-- Hide Apps from Recents -->
-    <string name="hide_apps_from_recents_title">Hide apps from recents</string>
-    <string name="hide_from_recents_add_app">Add App</string>
-    <string name="title_activity_carbon_recents_settings">Recents</string>
-
     <!-- Device info settings -->
     <string name="cpu_info">CPU</string>
-    <string name="mem_info">Memory</string>
+    <string name="mem_info">Arbeitsspeicher</string>
 </resources>
