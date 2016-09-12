@@ -17,7 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.android.settings.benzo.ambientdisplay;
+package com.android.settings.maple.ambientdisplay;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -73,7 +73,7 @@ public class AmbientSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.BENZO;
+        return MetricsEvent.MAPLE;
     }
 
     @Override

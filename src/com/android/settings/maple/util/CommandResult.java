@@ -1,4 +1,4 @@
-package com.android.settings.benzo.util;
+package com.android.settings.maple.util;
 
 import android.os.Environment;
 import android.os.Parcel;

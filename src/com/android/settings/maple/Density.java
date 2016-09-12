@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.benzo;
+package com.android.settings.maple;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -42,10 +42,10 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.benzo.util.CMDProcessor;
-import com.android.settings.benzo.util.CommandResult;
-import com.android.settings.benzo.util.Helpers;
-import com.android.settings.benzo.util.AbstractAsyncSuCMDProcessor;
+import com.android.settings.maple.util.CMDProcessor;
+import com.android.settings.maple.util.CommandResult;
+import com.android.settings.maple.util.Helpers;
+import com.android.settings.maple.util.AbstractAsyncSuCMDProcessor;
 
 public class Density extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
@@ -65,7 +65,7 @@ public class Density extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.BENZO;
+        return MetricsEvent.MAPLE;
     }
 
     @Override
