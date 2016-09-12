@@ -33,7 +33,11 @@
     <string name="mod_version">MapleAOSP release</string>
     <string name="mod_version_default">Unknown</string>
 
-    <!-- Quick Settings  -->
+    <!-- Settings suggestions  -->
+    <string name="disable_settings_suggestions_title">Disable suggestions</string>
+    <string name="disable_settings_suggestions_summary">Disable suggestions on the dashboard</string>
+
+    <!-- Qucik Settings  -->
     <string name="notification_qstiles_title">Quick Settings</string>
 
     <!-- Advanced reboot options -->
