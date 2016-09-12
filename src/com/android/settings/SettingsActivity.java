@@ -357,6 +357,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
             MapleSettings.class.getName(),
+            LightsSettings.class.getName(),
     };
 
 

@@ -47,6 +47,9 @@
     <string name="notification_qstiles_title">Quick Settings</string>
     <string name="quicksettings_tiles_category">Tile Options</string>
 
+    <!-- Lights Settings  -->
+    <string name="lights_settings">Lights</string>
+
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
