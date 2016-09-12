@@ -39,12 +39,6 @@
                 android:widgetLayout="@null"
                 settings:keywords="@string/keywords_display_night_display" />
 
-        <com.android.settings.preference.SystemSettingSwitchPreference
-                android:key="disable_settings_suggestions"
-                android:title="@string/disable_settings_suggestions_title"
-                android:summary="@string/disable_settings_suggestions_summary"
-                android:defaultValue="false" />
-
         <!-- Hide night mode for now
         <ListPreference
             android:key="night_mode"
@@ -75,6 +69,18 @@
                 android:summary="@string/screen_timeout_summary"
                 android:entries="@array/screen_timeout_entries"
                 android:entryValues="@array/screen_timeout_values" />
+
+        <com.android.settings.preference.SystemSettingSwitchPreference
+                android:key="disable_settings_suggestions"
+                android:title="@string/disable_settings_suggestions_title"
+                android:summary="@string/disable_settings_suggestions_summary"
+                android:defaultValue="false" />
+
+        <com.android.settings.preference.SystemSettingSwitchPreference
+                android:key="remove_tile_summary"
+                android:title="@string/remove_tile_summaries_title"
+                android:summary="@string/remove_tile_summaries_summary"
+                android:defaultValue="false" />
 
         <SwitchPreference
                 android:key="camera_gesture"

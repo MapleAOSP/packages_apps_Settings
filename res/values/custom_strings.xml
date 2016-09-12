@@ -36,10 +36,6 @@
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
-    <!-- Settings suggestions  -->
-    <string name="disable_settings_suggestions_title">Disable suggestions</string>
-    <string name="disable_settings_suggestions_summary">Disable suggestions on the dashboard</string>
-
     <!-- Quick Settings  -->
     <string name="notification_qstiles_title">Quick Settings</string>
 
@@ -66,6 +62,7 @@
     <string name="enable_adb_summary_custom">Enable the Android Debug Bridge (adb) interface</string>
     <string name="adb_notify">ADB notification</string>
     <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
+
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
 
@@ -292,5 +289,12 @@
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
+
+    <!-- Dashboard options -->
+    <string name="dashboard_category">Dashboard options</string>
+    <string name="disable_settings_suggestions_title">Disable suggestions</string>
+    <string name="disable_settings_suggestions_summary">Disable suggestions on the dashboard</string>
+    <string name="remove_tile_summaries_title">Remove tile summaries</string>
+    <string name="remove_tile_summaries_summary">Remove tiles summaries that display underneath tile titles</string>
 
 </resources>
