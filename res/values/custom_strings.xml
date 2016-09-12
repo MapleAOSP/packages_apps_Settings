@@ -36,6 +36,10 @@
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
+    <!-- Settings suggestions  -->
+    <string name="disable_settings_suggestions_title">Disable suggestions</string>
+    <string name="disable_settings_suggestions_summary">Disable suggestions on the dashboard</string>
+
     <!-- Quick Settings  -->
     <string name="notification_qstiles_title">Quick Settings</string>
 
