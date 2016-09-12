@@ -24,7 +24,7 @@
     <!-- Summary of device info page [CHAR LIMIT=NONE] -->
     <string name="about_summary">MapleAOSP 1.0</string>
 
-    <string name="statusbar_settings_title">Clock</string>
+    <string name="statusbar_settings_title">Clock style</string>
 
     <string name="ok">Okay</string>
 
