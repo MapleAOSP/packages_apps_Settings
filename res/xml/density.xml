@@ -2,10 +2,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Preference
-        android:layout="@layout/preference_warning"
-        android:selectable="false" />
-
-    <Preference
         android:title="@string/su_dialog_error_title"
         android:summary="@string/follow_through_summary"
         android:selectable="false" />
