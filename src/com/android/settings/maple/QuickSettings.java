@@ -13,7 +13,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-package com.android.settings.benzo;
+package com.android.settings.maple;
 
 import android.os.Bundle;
 import android.content.ContentResolver;
@@ -31,7 +31,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.android.settings.benzo.SeekBarPreference;
+import com.android.settings.maple.SeekBarPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
@@ -51,7 +51,7 @@ public class QuickSettings  extends SettingsPreferenceFragment
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.BENZO;
+        return MetricsEvent.MAPLE;
     }
 
     @Override
