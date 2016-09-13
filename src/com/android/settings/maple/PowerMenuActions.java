@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.benzo;
+package com.android.settings.maple;
 
 import android.content.Context;
 import android.content.Intent;
@@ -103,7 +103,7 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.BENZO;
+        return MetricsEvent.MAPLE;
     }
 
     @Override
