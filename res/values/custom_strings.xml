@@ -16,10 +16,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Settings -->
+    <!-- MapleAOSP Settings -->
     <string name="header_category_maple">MapleAOSP</string>
     <string name="maple_settings_title">Extras</string>
     <string name="maple_settings_summary">Custom ROM settings</string>
+    <string name="anim_cat_label">Animations</string>
+    <string name="sysui_cat_label">System UI</string>
+    <string name="misc_cat_label">Miscellaneous</string>
 
     <!-- Summary of device info page [CHAR LIMIT=NONE] -->
     <string name="about_summary">MapleAOSP 1.0</string>
@@ -64,7 +67,7 @@
     <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_title">Wakelock blocker</string>
     <string name="wakelock_blocker_summary">Block system wakelocks</string>
     <string name="wakelock_blocker_save">Save</string>
     <string name="wakelock_list_header">Available wakelocks</string>
@@ -157,7 +160,7 @@
     <string name="dpi">DPI</string>
     <string name="su_dialog_error_title">Warning</string>
     <string name="su_dialog_error_message">An error occurred.\n\nPlease check for root access. To activate go into superuser settings and enable root access.</string>
-    <string name="lcd_density_title">LCD Density</string>
+    <string name="lcd_density_title">Screen density</string>
     <string name="lcd_density_category">Options</string>
     <string name="follow_through_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device</string>
     <string name="stock_density_title">Change to stock values</string>
@@ -176,8 +179,8 @@
     <string name="custom_density_dialog_button_reboot">Reboot now</string>
 
     <!-- AOKP custom system animations -->
-    <string name="animation_title">Animations</string>  
-    <string name="system_animation_title">System animations</string>
+    <string name="animation_title">System</string>  
+    <string name="system_animation_title">Task animations</string>
     <string name="activity_open_title">Activity open animation</string>
     <string name="activity_close_title">Activity close animation</string>
     <string name="task_open_title">Task open animation</string>
