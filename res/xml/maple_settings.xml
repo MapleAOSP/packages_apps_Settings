@@ -58,11 +58,12 @@
         android:title="@string/misc_cat_label">
 
         <!-- Density Changer -->
+<!-- Hide density changer for now
         <PreferenceScreen
             android:key="density_changer"
             android:title="@string/lcd_density_title"
             android:fragment="com.android.settings.maple.Density"
-        />
+        /> -->
 
         <!-- Wakelock blocker -->
         <PreferenceScreen
