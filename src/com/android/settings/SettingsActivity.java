@@ -224,6 +224,8 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String SUPERUSER_FRAGMENT = "com.android.settings.Superuser";
 
+    private static final String KA_FRAGMENT = "com.android.settings.KernelAdiutor";
+
     private String mFragmentClass;
 
     private CharSequence mInitialTitle;
@@ -1029,6 +1031,14 @@ public class SettingsActivity extends SettingsDrawerActivity
             Intent superuserIntent = new Intent();
             superuserIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
             startActivity(superuserIntent);
+            finish();
+            return null;
+        }
+
+        if (KA_FRAGMENT.equals(fragmentName)) {
+            Intent kernelAdiutorIntent = new Intent();
+            kernelAdiutorIntent.setClassName("com.grarak.kerneladiutor", "com.grarak.kerneladiutor.activities.MainActivity");
+            startActivity(kernelAdiutorIntent);
             finish();
             return null;
         }

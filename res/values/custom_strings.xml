@@ -30,6 +30,7 @@
 
     <string name="ok">Okay</string>
     <string name="quicksettings_title">Quick Settings</string>
+    <string name="kerneladiutor_title">Kernel</string>
 
     <!-- About phone screen,  Mod Version -->
     <string name="mod_version">MapleAOSP release</string>
