@@ -31,26 +31,12 @@
                 android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
         </PreferenceScreen>
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="display"
-        android:title="@string/anim_cat_label">
-
         <!-- Animation Settings -->
         <PreferenceScreen
             android:key="animation_settings"
             android:title="@string/animation_title"
             android:fragment="com.android.settings.maple.animation.AnimationSettings" 
         />
-
-        <!-- Quick Settings -->
-        <PreferenceScreen
-            android:id="@+id/quick_settings"
-            android:title="@string/quicksettings_title"
-            android:fragment="com.android.settings.maple.QuickSettings"
-        />
-
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -20,7 +20,6 @@
     <string name="header_category_maple">MapleAOSP</string>
     <string name="maple_settings_title">Extras</string>
     <string name="maple_settings_summary">Custom ROM settings</string>
-    <string name="anim_cat_label">Animations</string>
     <string name="sysui_cat_label">System UI</string>
     <string name="misc_cat_label">Miscellaneous</string>
 
@@ -183,8 +182,9 @@
     <string name="custom_density_dialog_button_reboot">Reboot now</string>
 
     <!-- AOKP custom system animations -->
-    <string name="animation_title">System</string>  
+    <string name="animation_title">Animations</string>  
     <string name="system_animation_title">Task animations</string>
+    <string name="quicksettingsanim_title">Quick settings animations</string>
     <string name="activity_open_title">Activity open animation</string>
     <string name="activity_close_title">Activity close animation</string>
     <string name="task_open_title">Task open animation</string>
