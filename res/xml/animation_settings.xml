@@ -24,6 +24,11 @@
         android:title="@string/system_animation_title"
         android:fragment="com.android.settings.maple.animation.AnimationControls" />
 
+    <PreferenceScreen
+        android:id="@+id/quick_settings"
+        android:title="@string/quicksettingsanim_title"
+        android:fragment="com.android.settings.maple.QuickSettings" />
+
     <ListPreference
         android:key="toast_animation"
         android:title="@string/toast_animation_title"
