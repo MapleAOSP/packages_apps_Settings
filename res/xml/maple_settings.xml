@@ -67,6 +67,13 @@
                 android:targetClass="com.android.settings.maple.hideappfromrecents.HAFRAppListActivity" />
         </PreferenceScreen>
 
+        <!-- SystemApp Remover -->
+        <PreferenceScreen
+                android:id="@+id/system_app_remover"
+                android:title="@string/system_app_remover"
+                android:fragment="com.android.settings.maple.SystemappRemover" 
+                />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
