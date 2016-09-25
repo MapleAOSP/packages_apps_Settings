@@ -220,8 +220,6 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final int REQUEST_SUGGESTION = 42;
 
-    private static final String SUPERSU_FRAGMENT = "com.android.settings.SuperSU";
-
     private static final String SUBSTRATUM_FRAGMENT = "com.android.settings.Substratum";
 
     private String mFragmentClass;
@@ -1017,14 +1015,6 @@ public class SettingsActivity extends SettingsDrawerActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
-        if (SUPERSU_FRAGMENT.equals(fragmentName)) {
-            Intent superSUIntent = new Intent();
-            superSUIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
-            startActivity(superSUIntent);
-            finish();
-            return null;
-        }
-
         if (SUBSTRATUM_FRAGMENT.equals(fragmentName)) {
             Intent substratumIntent = new Intent();
             substratumIntent.setClassName("projekt.substratum", "projekt.substratum.LaunchActivity");
