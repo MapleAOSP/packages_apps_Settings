@@ -46,4 +46,33 @@
             android:entryValues="@array/qs_tile_animation_interpolator_values"
             android:persistent="false" />
 
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="qs_fancy_animation"
+            android:title="@string/qs_fancy_animation_title"
+            android:summary="@string/qs_fancy_animation_summary"
+            android:defaultValue="true" />
+
+    <PreferenceCategory
+        android:key="quicksettings_tiles"
+        android:title="@string/quicksettings_tiles_category" />
+
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="qs_data_advanced"
+            android:title="@string/qs_advanced_data_title"
+            android:summary="@string/qs_advanced_data_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="qs_wifi_easy_toggle"
+            android:title="@string/qs_wifi_easy_toggle_title"
+            android:summary="@string/qs_wifi_easy_toggle_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
+
+>>>>>>> f5455c1... QS: Add toggle for fancy QS animation [2/2]
 </PreferenceScreen>
