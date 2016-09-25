@@ -222,8 +222,6 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String SUPERSU_FRAGMENT = "com.android.settings.SuperSU";
 
-    private static final String SUPERUSER_FRAGMENT = "com.android.settings.Superuser";
-
     private static final String SUBSTRATUM_FRAGMENT = "com.android.settings.Substratum";
 
     private String mFragmentClass;
@@ -1023,14 +1021,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             Intent superSUIntent = new Intent();
             superSUIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
             startActivity(superSUIntent);
-            finish();
-            return null;
-        }
-
-        if (SUPERUSER_FRAGMENT.equals(fragmentName)) {
-            Intent superuserIntent = new Intent();
-            superuserIntent.setClassName("me.phh.superuser", "com.koushikdutta.superuser.MainActivity");
-            startActivity(superuserIntent);
             finish();
             return null;
         }
