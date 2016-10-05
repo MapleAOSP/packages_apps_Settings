@@ -62,6 +62,7 @@
             android:title="@string/lights_settings"
             android:fragment="com.android.settings.LightsSettings" 
         />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="display"
