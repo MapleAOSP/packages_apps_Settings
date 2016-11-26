@@ -353,8 +353,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         @Override
         public void setListening(boolean listening) {
             if (listening) {
-                mSummaryLoader.setSummary(this, mContext.getString(R.string.about_summary,
-                        Build.VERSION.RELEASE));
+                mSummaryLoader.setSummary(this, mContext.getString(R.string.about_summary, SystemProperties.get("ro.maple.version",
+                            mContext.getString(R.string.device_info_default))));
             }
         }
     }

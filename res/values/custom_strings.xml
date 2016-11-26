@@ -24,7 +24,7 @@
     <string name="misc_cat_label">Miscellaneous</string>
 
     <!-- Summary of device info page [CHAR LIMIT=NONE] -->
-    <string name="about_summary">MapleAOSP 2.0</string>
+    <string name="about_summary">MapleAOSP %s</string>
 
     <string name="statusbar_settings_title">Clock style</string>
 
@@ -41,6 +41,7 @@
 
     <!-- Quick Settings  -->
     <string name="notification_qstiles_title">Quick Settings</string>
+    <string name="quicksettings_tiles_category">Tile Options</string>
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Advanced reboot</string>
@@ -361,5 +362,13 @@
     <!-- BT easy toggle -->
     <string name="qs_bt_easy_toggle_title">Bluetooth easy toggle</string>
     <string name="qs_bt_easy_toggle_summary">Makes it so one click will turn Bluetooth on or off instead of taking you to settings</string>
+
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Advanced data tile</string>
+    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
 
 </resources>
