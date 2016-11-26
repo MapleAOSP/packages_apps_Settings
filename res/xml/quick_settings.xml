@@ -19,33 +19,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notification_qstiles_title">
 
-        <ListPreference
-            android:key="qs_tile_animation_style"
-            android:title="@string/qs_tile_animation_style_title"
-            android:entries="@array/qs_tile_animation_style_entries"
-            android:entryValues="@array/qs_tile_animation_style_values"
-            android:persistent="false" />
-
-        <ListPreference
-            android:key="qs_tile_animation_duration"
-            android:title="@string/qs_tile_animation_duration_title"
-            android:entries="@array/qs_tile_animation_duration_entries"
-            android:entryValues="@array/qs_tile_animation_duration_values"
-            android:persistent="false" />
-
-        <ListPreference
-            android:key="qs_tile_animation_interpolator"
-            android:title="@string/qs_tile_animation_interpolator_title"
-            android:entries="@array/qs_tile_animation_interpolator_entries"
-            android:entryValues="@array/qs_tile_animation_interpolator_values"
-            android:persistent="false" />
-
-        <com.android.settings.preference.SecureSettingSwitchPreference
-            android:key="qs_fancy_animation"
-            android:title="@string/qs_fancy_animation_title"
-            android:summary="@string/qs_fancy_animation_summary"
-            android:defaultValue="true" />
-
     <PreferenceCategory
         android:key="quicksettings_tiles"
         android:title="@string/quicksettings_tiles_category" />
@@ -73,5 +46,36 @@
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
+
+    <PreferenceCategory
+        android:key="quicksettings_anim"
+        android:title="@string/animation_title" />
+
+        <ListPreference
+            android:key="qs_tile_animation_style"
+            android:title="@string/qs_tile_animation_style_title"
+            android:entries="@array/qs_tile_animation_style_entries"
+            android:entryValues="@array/qs_tile_animation_style_values"
+            android:persistent="false" />
+
+        <ListPreference
+            android:key="qs_tile_animation_duration"
+            android:title="@string/qs_tile_animation_duration_title"
+            android:entries="@array/qs_tile_animation_duration_entries"
+            android:entryValues="@array/qs_tile_animation_duration_values"
+            android:persistent="false" />
+
+        <ListPreference
+            android:key="qs_tile_animation_interpolator"
+            android:title="@string/qs_tile_animation_interpolator_title"
+            android:entries="@array/qs_tile_animation_interpolator_entries"
+            android:entryValues="@array/qs_tile_animation_interpolator_values"
+            android:persistent="false" />
+
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="qs_fancy_animation"
+            android:title="@string/qs_fancy_animation_title"
+            android:summary="@string/qs_fancy_animation_summary"
+            android:defaultValue="true" />
 
 </PreferenceScreen>
