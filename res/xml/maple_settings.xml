@@ -51,6 +51,12 @@
             android:summary="@string/screenshot_crop_and_share_summary"
             android:defaultValue="false" />
 
+        <com.android.settings.preference.SystemSettingSwitchPreference
+            android:key="home_pixel_animation"
+            android:title="@string/home_animation_title"
+            android:summary="@string/home_animation_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

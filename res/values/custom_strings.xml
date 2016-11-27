@@ -371,4 +371,8 @@
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
 
+    <!-- Pixel Home button animation -->
+    <string name="home_animation_title">Home button animation</string>
+    <string name="home_animation_summary">Use Pixel-style home button animation</string>
+
 </resources>
