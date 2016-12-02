@@ -22,6 +22,7 @@
     <string name="maple_settings_summary">Custom ROM settings</string>
     <string name="sysui_cat_label">System UI</string>
     <string name="misc_cat_label">Miscellaneous</string>
+    <string name="hard_cat_label">Hardware</string>
 
     <!-- Summary of device info page [CHAR LIMIT=NONE] -->
     <string name="about_summary">MapleAOSP %s</string>

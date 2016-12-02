@@ -55,6 +55,16 @@
 
     <PreferenceCategory
         android:key="display"
+        android:title="@string/hard_cat_label">
+
+        <PreferenceScreen
+            android:key="lights"
+            android:title="@string/lights_settings"
+            android:fragment="com.android.settings.LightsSettings" 
+        />
+
+    <PreferenceCategory
+        android:key="display"
         android:title="@string/misc_cat_label">
 
         <!-- Density Changer -->
