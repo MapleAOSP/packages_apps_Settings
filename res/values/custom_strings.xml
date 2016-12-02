@@ -23,11 +23,15 @@
     <string name="sysui_cat_label">System UI</string>
     <string name="misc_cat_label">Miscellaneous</string>
     <string name="hard_cat_label">Hardware</string>
-
-    <!-- Summary of device info page [CHAR LIMIT=NONE] -->
     <string name="about_summary">MapleAOSP %s</string>
-
     <string name="statusbar_settings_title">Clock style</string>
+    <string name="quicksettings_title">Quick Settings</string>
+    <string name="substratum_title">Substratum</string>
+    <string name="updater_title">Updates</string>
+    <string name="updater_summary">Check for MapleAOSP updates</string>
+    <string name="mod_version">MapleAOSP release</string>
+    <string name="mod_version_default">Unknown</string>
+
 
     <!-- General -->
     <string name="ok">Okay</string>
@@ -43,17 +47,6 @@
     <string name="advanced">Advanced</string>
     <string name="profiles_add">Add...</string>
     <string name="profile_choose_app">Choose app</string>
-
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="substratum_title">Substratum</string>
-
-    <!-- Updater -->
-    <string name="updater_title">Updates</string>
-    <string name="updater_summary">Check for MapleAOSP updates</string>
-
-    <!-- About phone screen,  Mod Version -->
-    <string name="mod_version">MapleAOSP release</string>
-    <string name="mod_version_default">Unknown</string>
 
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
